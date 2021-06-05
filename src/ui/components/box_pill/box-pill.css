@@ -1,0 +1,17 @@
+:root {
+  --border-box-pill: 3px solid var(--comment);
+}
+
+.BoxPill {
+  border-radius: 10px;
+  gap: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: var(--pill-width);
+  height: 400px;
+  padding: 2px;
+  border-bottom: var(--border-box-pill);
+  border-left: var(--border-box-pill);
+  border-right: var(--border-box-pill);
+}

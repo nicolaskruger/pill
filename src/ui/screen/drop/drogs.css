@@ -1,0 +1,21 @@
+.drogs {
+  width: 90%;
+  max-width: 300px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+.drogs__div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.drogs__input-red {
+  color: var(--red);
+}
+.drogs__input-blue {
+  color: var(--blue);
+}

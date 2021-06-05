@@ -1,3 +1,31 @@
+:root {
+  --background: #1d1f21;
+  --current-Line: #282a2e;
+  --selection: #373b41;
+  --foreground: #c5c8c6;
+  --comment: #969896;
+  --red: #cc6666;
+  --orange: #de935f;
+  --yellow: #f0c674;
+  --green: #b5bd68;
+  --aqua: #8abeb7;
+  --blue: #81a2be;
+  --purple: #b294bb;
+}
+.input {
+  min-width: 300px;
+  background-color: var(--selection);
+  margin: 0;
+  border: 0;
+  padding: 3px;
+  height: 30px;
+  font-size: 20px;
+  color: var(--yellow);
+}
+* {
+  background-color: var(--background);
+  color: var(--comment);
+}
 .App {
   text-align: center;
 }

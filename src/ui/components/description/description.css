@@ -1,0 +1,29 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.description p {
+  margin: 0;
+}
+.description {
+  gap: 3px;
+  display: flex;
+  flex-direction: column;
+}
+.description > li {
+  display: flex;
+  gap: 5px;
+}
+.description__p-info {
+  color: var(--purple);
+}
+.description__p-red-pill {
+  color: var(--red);
+}
+.description__p-blue-pill {
+  color: var(--blue);
+}
+.description__p-command {
+  color: var(--orange);
+}
